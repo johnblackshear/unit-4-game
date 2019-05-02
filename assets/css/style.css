@@ -1,0 +1,64 @@
+body{
+    background-image: url("../images/bg.jpg");
+}
+
+#main_header{
+    text-align: center;
+    color: #ffffff;
+}
+
+#instructions{
+    /*background-color: #ffffff;*/
+    /*opacity: 0.5;*/
+    color: #ffffff;
+}
+
+#rand_num{
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    height: 200px;
+    padding-top: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#wl{
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    height: 200px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#gem_img{
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    width: 200px;
+    height: 250px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#your_score{
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: black;
+
+}
+
+#points_total{
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    height: 75px;
+    margin-top: 10px;
+    background-color: black;
+    padding: 10px;
+}
