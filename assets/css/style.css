@@ -1,5 +1,5 @@
 body{
-    background-image: url("../images/bg.jpg");
+background-color: black;    
 }
 
 #main_header{
@@ -32,15 +32,15 @@ body{
     font-size: 20px;
 }
 
-#gem_img{
+/*#gem_img{
     border: 2px solid #ffffff;
     text-align: center;
     color: #ffffff;
     width: 200px;
-    height: 250px;
+    height: 200px;
     margin-top: 30px;
     margin-right: 20px;
-}
+}*/
 
 #your_score{
     border: 2px solid #ffffff;
@@ -61,4 +61,17 @@ body{
     margin-top: 10px;
     background-color: black;
     padding: 10px;
+}
+
+.button{
+   
+    margin-top: 20px;
+    padding: 0px;
+   
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #000000;
 }
