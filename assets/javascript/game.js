@@ -45,7 +45,7 @@ $(document).ready(function(){
             }
             else if(current >= goal){
                 alert("you lose");
-                $('#lossdiv').text(losses ++, "loosses");
+                $('#lossdiv').text(losses ++, "losses");
                 resetGame();
             }
         });
