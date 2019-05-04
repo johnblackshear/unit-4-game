@@ -23,11 +23,19 @@ background-color: black;
     margin-right: 20px;
 }
 
-#wl{
+#winsdiv{
     border: 2px solid #ffffff;
     text-align: center;
     color: #ffffff;
-    height: 200px;
+    height: 100px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+#lossdiv{
+    border: 2px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    height: 100px;
     padding-top: 30px;
     font-size: 20px;
 }
