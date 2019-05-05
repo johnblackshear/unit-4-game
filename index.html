@@ -6,6 +6,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="assets/javascript/game.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+
 
 
     </head>
@@ -17,12 +19,25 @@
                 <div id="main_header" class="col-md-10"><h1>Crystal Collector!</h1></div>
             </div>
             <div class="row">
-                <div id="instructions" class="col-md-10"><p>hey, these are the instructions...hey, these are the instructions...hey, these are the instructions...hey, these are the instructions...</p></div>
+                <div id="instructions" class="col-md-10"><p>
+                    You will be given a random target number at the start of the game. 
+                    There are four Crystals below. At the start of the game, each crystal be given  a random value. 
+                    You will not see this value until you click on one of crystals. Each time you click on a crystal, 
+                    the value will be added to your score. You are able to continue clicking on the crystals until you 
+                    either match the targt number, or until you go over. 
+
+                    If your score matches the target number, you win! Otherwise, if you  go over you loose!
+
+                    Once you win or loose, the game will reset and the values of target number and crystals will change.
+
+                    Good Luck!
+                </p>
+            </div>
             </div>
             <div class="row">
                 <div id="rand_num" class="col-md-3"></div> 
-                <div id="winsdiv" class="col-md-2">wins</div>
-                <div id="lossdiv" class="col-md-2"><p>losses</p></div>
+                <div id="winsdiv" class="col-md-2">WINS</div>
+                <div id="lossdiv" class="col-md-2"><p>LOSSES</p></div>
             </div>
             <div class="row">
                 <div id="gem_img" class="col-md-2"><button class="button" id="red"><img src="assets/images/red.png"></button></div>

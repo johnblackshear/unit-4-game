@@ -40,7 +40,7 @@ $(document).ready(function(){
             
             if(current === goal){
                 alert("you win");
-                $('#winsdiv').text(wins ++, "wins");
+                $('#winsdiv').text(wins ++,);
                 resetGame();
             }
             else if(current >= goal){
